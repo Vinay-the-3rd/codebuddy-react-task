@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form1box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form1box p {
+  color: red;
+}
+
+@media (max-width: 456px) {
+  .form-1-btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
